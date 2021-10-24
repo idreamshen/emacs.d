@@ -33,6 +33,13 @@
 (require 'init-so-long)
 (require 'init-eglot)
 (require 'init-keyfreq)
+(require 'init-indent)
+(require 'init-org)
+(require 'init-org-babel)
+(require 'init-org-capture)
+(require 'init-org-agenda)
+(require 'init-js)
+
 
 ;; load custom file
 (load custom-file)
