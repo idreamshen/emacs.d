@@ -43,7 +43,7 @@
 (add-to-list 'load-path (expand-file-name "private-elisp" user-emacs-directory))
 (let ((default-directory (expand-file-name "private-elisp" user-emacs-directory)))
   (normal-top-level-add-subdirs-to-load-path))
-(require 'init-private)
+(require 'init-private nil t)
 
 ;; load custom file
 (when (file-exists-p custom-file)
