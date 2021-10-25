@@ -7,5 +7,6 @@
 (setq org-directory "~/emacs-files/")
 (setq org-todo-keywords
       '((sequence "TODO(t)" "WAIT(w@/!)" "|" "DONE(d!)" "CANCELED(c@)")))
+(setq org-edit-src-content-indentation 0)
 
 (provide 'init-org)
