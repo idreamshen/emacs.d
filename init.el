@@ -46,4 +46,5 @@
 (require 'init-private)
 
 ;; load custom file
-(load custom-file)
+(when (file-exists-p custom-file)
+  (load custom-file))
