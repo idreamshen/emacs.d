@@ -40,6 +40,7 @@
 (require 'init-org-agenda)
 (require 'init-js)
 
+(add-to-list 'load-path (expand-file-name "private-elisp" user-emacs-directory))
 (let ((default-directory (expand-file-name "private-elisp" user-emacs-directory)))
   (normal-top-level-add-subdirs-to-load-path))
 (require 'init-private)
