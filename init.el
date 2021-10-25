@@ -40,6 +40,9 @@
 (require 'init-org-agenda)
 (require 'init-js)
 
+(let ((default-directory (expand-file-name "private-elisp" user-emacs-directory)))
+  (normal-top-level-add-subdirs-to-load-path))
+(require 'init-private)
 
 ;; load custom file
 (load custom-file)
