@@ -39,6 +39,7 @@
 (require 'init-org-capture)
 (require 'init-org-agenda)
 (require 'init-js)
+(require 'init-browse-url)
 
 (add-to-list 'load-path (expand-file-name "private-elisp" user-emacs-directory))
 (let ((default-directory (expand-file-name "private-elisp" user-emacs-directory)))
