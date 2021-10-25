@@ -1,5 +1,7 @@
 (require 'org)
 
+(add-hook 'org-mode-hook 'org-indent-mode)
+
 (setq org-scheduled-past-days 100)
 (setq org-log-done 'time)
 (setq org-directory "~/emacs-files/")
