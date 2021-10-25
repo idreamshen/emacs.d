@@ -41,6 +41,7 @@
 (require 'init-js)
 (require 'init-browse-url)
 (require 'init-counsel-dash)
+(require 'init-ob-restclient)
 
 (add-to-list 'load-path (expand-file-name "private-elisp" user-emacs-directory))
 (let ((default-directory (expand-file-name "private-elisp" user-emacs-directory)))
