@@ -10,6 +10,6 @@
 (add-to-list 'org-capture-templates
              '("l" "Life 生活" entry
                (file+headline "~/emacs-files/life.org" "Life")
-               "* TODO %?\n  SCHEDULED: %^T DEADLINE: %^T\n"))
+               "* TODO %?\nSCHEDULED: %^T DEADLINE: %^T\n"))
 
 (provide 'init-org-capture)
