@@ -9,4 +9,6 @@
 
 (add-hook 'compilation-filter-hook #'colorize-compilation-buffer)
 
+(add-hook 'compilation-filter-hook #'comint-truncate-buffer)
+
 (provide 'init-compile)
