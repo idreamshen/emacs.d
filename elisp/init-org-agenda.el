@@ -4,5 +4,6 @@
 
 (setq org-agenda-span 'day)
 (setq org-agenda-files '("~/emacs-files/"))
+(setq org-agenda-tags-column 80)
 
 (provide 'init-org-agenda)
