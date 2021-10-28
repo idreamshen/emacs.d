@@ -10,4 +10,6 @@
 (setq org-edit-src-content-indentation 0)
 (setq org-tags-column 80)
 
+(setq org-priority-lowest ?D)
+
 (provide 'init-org)
