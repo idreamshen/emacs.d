@@ -43,6 +43,7 @@
 (require 'init-counsel-dash)
 (require 'init-ob-restclient)
 (require 'init-elfeed)
+(require 'init-avy)
 
 (add-to-list 'load-path (expand-file-name "private-elisp" user-emacs-directory))
 (let ((default-directory (expand-file-name "private-elisp" user-emacs-directory)))
