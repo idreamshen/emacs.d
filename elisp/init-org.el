@@ -11,5 +11,6 @@
 (setq org-tags-column 80)
 
 (setq org-priority-lowest ?D)
+(setq org-priority-default ?E)
 
 (provide 'init-org)

@@ -44,6 +44,7 @@
 (require 'init-ob-restclient)
 (require 'init-elfeed)
 (require 'init-avy)
+(require 'init-ob-python)
 
 (add-to-list 'load-path (expand-file-name "private-elisp" user-emacs-directory))
 (let ((default-directory (expand-file-name "private-elisp" user-emacs-directory)))
