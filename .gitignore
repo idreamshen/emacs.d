@@ -12,3 +12,7 @@
 /bookmarks
 /url/
 /custom.el
+/network-security.data
+*~undo-tree~
+/.org-id-locations
+/org-roam.db
