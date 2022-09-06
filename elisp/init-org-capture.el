@@ -11,5 +11,9 @@
              '("l" "Life 生活" entry
                (file+headline "~/emacs-files/life.org" "Life")
                "* TODO %?\nSCHEDULED: %^T DEADLINE: %^T\n"))
+(add-to-list 'org-capture-templates
+             '("k" "Knowledge 知识" entry
+               (file+headline "~/emacs-files/knowledge.org" "Knowledge")
+               "* %?\n%^T\n"))
 
 (provide 'init-org-capture)
