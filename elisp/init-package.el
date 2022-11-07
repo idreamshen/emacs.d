@@ -5,6 +5,7 @@
                          ("org" . "https://mirrors.ustc.edu.cn/elpa/org/")))
 
 (package-initialize)
+(package-refresh-contents)
 
 (defun package-ensure(package-name)
   (when (not (package-installed-p package-name))
