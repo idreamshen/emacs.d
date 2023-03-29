@@ -1,4 +1,5 @@
 (require 'org)
+(package-ensure 'org-contrib)
 
 (add-hook 'org-mode-hook 'org-indent-mode)
 
