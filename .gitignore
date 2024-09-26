@@ -16,3 +16,4 @@
 *~undo-tree~
 /.org-id-locations
 /org-roam.db
+/org-persist/
