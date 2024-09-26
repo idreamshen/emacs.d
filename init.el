@@ -3,7 +3,6 @@
 
 (require 'init-gc)
 (require 'init-package)
-(require 'init-exec-path-from-shell)
 (require 'init-theme)
 (require 'init-ivy)
 (require 'init-swiper)
