@@ -17,3 +17,4 @@
 /.org-id-locations
 /org-roam.db
 /org-persist/
+/.lsp-session-v1
