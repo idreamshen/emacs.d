@@ -49,6 +49,7 @@
 (require 'init-thrift)
 (require 'init-ledger)
 (require 'init-ob-ledger)
+(require 'init-ellama)
 
 (add-to-list 'load-path (expand-file-name "private-elisp" user-emacs-directory))
 (let ((default-directory (expand-file-name "private-elisp" user-emacs-directory)))
