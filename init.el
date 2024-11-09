@@ -52,6 +52,7 @@
 (require 'init-ellama)
 (require 'init-editorconfig)
 (require 'init-gptel)
+(require 'init-shell)
 
 (add-to-list 'load-path (expand-file-name "private-elisp" user-emacs-directory))
 (let ((default-directory (expand-file-name "private-elisp" user-emacs-directory)))
