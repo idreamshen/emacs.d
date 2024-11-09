@@ -1,3 +1,5 @@
+(setq shell-file-name "/bin/bash")
+
 (add-hook 'shell-mode-hook 'read-bash-history-shell-mode-hook)
 
 (defun read-bash-history-shell-mode-hook ()
