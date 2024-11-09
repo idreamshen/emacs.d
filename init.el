@@ -53,6 +53,7 @@
 (require 'init-editorconfig)
 (require 'init-gptel)
 (require 'init-shell)
+(require 'init-bash-completion)
 
 (add-to-list 'load-path (expand-file-name "private-elisp" user-emacs-directory))
 (let ((default-directory (expand-file-name "private-elisp" user-emacs-directory)))
