@@ -54,6 +54,7 @@
 (require 'init-gptel)
 (require 'init-shell)
 (require 'init-bash-completion)
+(require 'init-super-save)
 
 (add-to-list 'load-path (expand-file-name "private-elisp" user-emacs-directory))
 (let ((default-directory (expand-file-name "private-elisp" user-emacs-directory)))
