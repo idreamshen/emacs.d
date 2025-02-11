@@ -56,6 +56,7 @@
 (require 'init-bash-completion)
 (require 'init-super-save)
 (require 'init-web-mode)
+(require 'init-ob-go)
 
 (add-to-list 'load-path (expand-file-name "private-elisp" user-emacs-directory))
 (let ((default-directory (expand-file-name "private-elisp" user-emacs-directory)))
