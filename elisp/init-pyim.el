@@ -22,6 +22,8 @@
 (setq-default pyim-punctuation-half-width-functions
               '(pyim-probe-punctuation-line-beginning
                 pyim-probe-punctuation-after-punctuation))
+(setq pyim-candidates-search-buffer-p nil)
+(setq pyim-outcome-trigger nil)
 
 (package-ensure 'pyim-basedict)
 (require 'pyim-basedict)
