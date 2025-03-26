@@ -13,5 +13,14 @@
   (when (not (package-installed-p package-name))
     (package-install package-name)))
 
+(defun package-ensure-git (package-name url)
+  "Install a package from a git repository if not already installed.
+PACKAGE-NAME is the symbol name of the package.
+URL is the git repository URL."
+  (unless (package-installed-p package-name)
+    (package-vc-install `(,package-name :url ,url))))
+
+;; Example usage:
+;; (package-ensure-git 'aider "https://github.com/tninja/aider.el")
 
 (provide 'init-package)

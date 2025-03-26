@@ -4,6 +4,7 @@
 (require 'init-gc)
 (require 'init-package)
 (require 'init-theme)
+(require 'init-hydra)
 (require 'init-ivy)
 (require 'init-swiper)
 (require 'init-counsel)
@@ -59,6 +60,7 @@
 (require 'init-ob-go)
 (require 'init-ob-c)
 (require 'init-aider)
+(require 'init-org-fc)
 
 (add-to-list 'load-path (expand-file-name "private-elisp" user-emacs-directory))
 (let ((default-directory (expand-file-name "private-elisp" user-emacs-directory)))
