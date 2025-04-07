@@ -1,6 +1,8 @@
 (add-to-list 'load-path (expand-file-name "elisp" user-emacs-directory))
 (setq custom-file (expand-file-name "custom.el" user-emacs-directory))
 
+(set-time-zone-rule "UTC-8")
+
 (require 'init-gc)
 (require 'init-package)
 (require 'init-theme)
