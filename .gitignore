@@ -21,3 +21,6 @@
 /ellama-sessions/
 /history
 *.aider.*
+.aider*
+/leetcode-env/
+/persist/
