@@ -24,3 +24,4 @@
 .aider*
 /leetcode-env/
 /persist/
+/.cache/
